@@ -1,7 +1,6 @@
 # Accounting app (with Node.js)
 
-Implement an expense tracking app.
-You need to implement 2 collections with 5 endpoints each.
+Implemented 2 collections with 5 endpoints  into an expense tracking app.
 
 ## Business requirements
 They are well-described in a [documentation](https://app.swaggerhub.com/apis/YURIIHOLIUK_1/Accounting-App/1.0.0)
@@ -35,13 +34,3 @@ But after stop/start server again data should be empty.
 ### Code requirements
 You have to work inside `src/createServer.js`.
 You should create, set up and return an express app from `createServer` function.
-> ❗️You shouldn't call `app.listen(...)`. I's done in tests and in the `main.js`
-You might create additional files and might not, but no one can guarantee approve by mentor 😉.
-
-## How to work
-- `npm run dev` - to start server with auto-restart on code change.
-- `npm start` - just starts the server.
-- `npm run test:watch` - **[Recommended]** runs tests in watch mode (rerun them automatically on change).
-- `npm test` - runs ESLint and tests once.
-- `npm run lint` - runs ESLint.
-- `npm run lint:fix` - runs ESLint and fix fixable errors.
