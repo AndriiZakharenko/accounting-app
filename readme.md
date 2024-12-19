@@ -2,7 +2,7 @@
 
 ### Description
 
-Implemented 2 collections with 5 endpoints into an expense tracking app.
+- Implemented 2 collections with 5 endpoints into an expense tracking app.
 
 ### Stack
 
