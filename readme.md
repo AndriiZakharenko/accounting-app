@@ -1,36 +1,15 @@
-# Accounting app (with Node.js)
+# Accounting app
 
-Implemented 2 collections with 5 endpoints  into an expense tracking app.
+### Description
 
-## Business requirements
-They are well-described in a [documentation](https://app.swaggerhub.com/apis/YURIIHOLIUK_1/Accounting-App/1.0.0)
-<details>
-  <summary>How to work with documentation</summary>
+Implemented 2 collections with 5 endpoints into an expense tracking app.
 
-  If you open endpoint you will see request params, body. As well as expected response.
-  Also, you can use `Try it out` and then `Execute` button to send the request to the mock server.
-  It will send you demo response.
+### Stack
 
-  You can hide unneeded code editor:
-  ![hide documentation code editor](./docs/swagger_initial.png)
-  Result:
-  ![result documentation](docs/swagger_result.png)
-</details>
+- Node
 
-## Technical requirements
+### Tools
 
-Additional to positive cases you for every request you should:
-- return 404 with any message if expected entity doesn't exist.
-- return 400 with any message if required parameter is not passed.
-
-This behavior described in tests (expected and checked by tests).
-
-Data should be empty initially. Store data in memory (just in code in some variable).
-Changes should be persistent while server is working.
-It means, if I create expense in the first POST request it should be returned in the second GET request.
-
-But after stop/start server again data should be empty.
-
-### Code requirements
-You have to work inside `src/createServer.js`.
-You should create, set up and return an express app from `createServer` function.
+- ESlint
+- Prettier
+- Jest
